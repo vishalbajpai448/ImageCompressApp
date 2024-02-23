@@ -9,8 +9,8 @@
       <div class="glass">
         <div *ngIf="imgResultAfterCompression"><img [src]="imgResultAfterCompression" *ngIf="imgResultAfterCompression"
             height="500px" width="500px" /></div>
-        <button  class="btn btn-primary" (click)="compressFile()">Upload Image</button>
-        <button *ngIf="imgResultAfterCompression" class="btn btn-success m-2" (click)="downloadCompressedImage()">Download Image</button>
+        <button  class="btn btn-outline-primary" (click)="compressFile()">Upload Image</button>
+        <button *ngIf="imgResultAfterCompression" class="btn btn-outline-success m-2" (click)="downloadCompressedImage()">Download Image</button>
       </div>
     </div>
   </div>
