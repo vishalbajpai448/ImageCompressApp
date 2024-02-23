@@ -1,0 +1,26 @@
+.container
+{
+    height: 100vh;
+    margin: auto;
+}
+
+.image-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(66, 137, 218, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(38, 6, 154, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headingText
+{
+    font-size: 3rem; /* Adjust font size as needed */
+    font-weight: 1000;
+    color: #0c5eb0; /* Set text color */
+    font-family: cursive;
+}

@@ -1,0 +1,8 @@
+.logoText {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: 600; /* Make the text bold */
+    margin-left: 10px; /* Add some margin to the left of the text */
+    line-height: 50px; /* Center the text vertically with the logo */
+    color: #0c5eb0; /* Set text color */
+    font-family: cursive;
+  }
